@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable">
+    <link rel="stylesheet" href='estilo.css'>
+
+    <!--Estillo de Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Fin-->
+
+    <link rel="shortcut icon" href="img/logoo.ico">
+    <title>CB Webcraft</title>
+
+</head>
+<body>
+    <!--SECCION INICIO-->
+    <a href="https://api.whatsapp.com/send?phone=51993178676" onclick="enviarWhatsapp()" class="btn-wsp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    
+                    <h1>/CB/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBREMI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio"  onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto"  onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos del menu responsive-->
+
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Iconos de las redes sociales -->
+                    <div class="redes">
+                        <a href="https://www.facebook.com/jeampier.bustamante.90" target="_blank"> <i class="fa-brands fa-facebook" style="color: #345183;"></i></a>
+                        <a href="https://www.linkedin.com/in/cristian-bustamante-0b5166266/" target="_blank"> <i class="fa-brands fa-linkedin" style="color: #345183;"></i></a>
+                        <a href="https://www.instagram.com/cristian_bustamante3/" target="_blank"> <i class="fa-brands fa-instagram" style="color: #345183;"></i> </a>
+                        <a href="https://github.com/Tryhard-cm20" target="_blank"> <i class="fa-brands fa-github"  style="color: #345183;"></i></a>
+                    </div>
+
+
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Cristian Bustamante,</span> Desarrollador Web</h2>
+                <p class="decripcion"></p> actualmente soy estudiante de la carrera Ing. de Software con IA,
+                en el institucion SENATI en Huaura.</p>
+                <a href="#portfolio">Ir a PORTFOLIO</a>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/sobremi1.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion"> Sobre Mi </p>
+            <h2>Hola, soy <span>Cristian Bustamante</span></h2>
+            <h3>Desarrollador Web</h3>
+            <p>Soy un apasionado desarrollador Web y estudiante de Ingenieria de Software con enfoque en Inteligencia Artificial.
+                Como programador Junior, mi objetivo es adquirir experencia practica en el desarrollo de Software y ampliar mis conocimientos en diferentes tecnologias y lenguaje de programacion.
+                Me encanta enfrentar desafios y buscar soluciones creativas para resolver problemas. </p>
+            <p>He trabajado en proyectos  personales que me han permitido fortalecer mis habilidades en el desarrollo web, utilizando tecnologias como HTML, CSS y Javascript para crear sitios
+                web interactivos y resposivos.Además, tengo conocimientos en lenguajes de programación como Python y JavaScript, 
+                y he explorado el manejo de bases de datos y el desarrollo de aplicaciones web dinámicas.
+
+            </p>
+            <p>Estoy constantemente buscando oportunidades para aprender y crecer profesionalmente. He completado cursos en línea y para poder mejorar mis habilidades técnicas y mi comprensión del desarrollo ágil de software.
+                Estoy entusiasmado con el potencial de la Inteligencia Artificial y su impacto en el mundo. Mi objetivo a largo plazo es combinar mis conocimientos en desarrollo web con la IA para crear soluciones innovadoras que mejoren la vida de las personas.
+                Siempre estoy abierto a nuevas oportunidades y desafíos. Si estás interesado en colaborar en un proyecto o simplemente quieres conectarte, no dudes en contactarme.
+            </p>
+            <a href="#">Descargar CV</a>
+        </div>
+
+    </section>
+
+    <!--SECCION SERVICIOS-->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code" style="color: #345183;"></i></span>
+                <h4>Diseño de Sitos Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>PAGINAS WEB</li>
+                    <li>GRAPHIC</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas in ut odio quaerat libero totam 
+                    eum quam, pariatur modi nulla repellendus quis inventore accusamus commodi vitae vel, magnam qui. Rem.</p>    
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code" style="color: #345183;"></i></span>
+                <h4>Diseño de Sitos Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>PAGINAS WEB</li>
+                    <li>GRAPHIC</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas in ut odio quaerat libero totam 
+                    eum quam, pariatur modi nulla repellendus quis inventore accusamus commodi vitae vel, magnam qui. Rem.</p>    
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code" style="color: #345183;"></i></span>
+                <h4>Diseño de Sitos Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>PAGINAS WEB</li>
+                    <li>GRAPHIC</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas in ut odio quaerat libero totam 
+                    eum quam, pariatur modi nulla repellendus quis inventore accusamus commodi vitae vel, magnam qui. Rem.</p>    
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code" style="color: #345183;"></i></span>
+                <h4>Diseño de Sitos Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>PAGINAS WEB</li>
+                    <li>GRAPHIC</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas in ut odio quaerat libero totam 
+                    eum quam, pariatur modi nulla repellendus quis inventore accusamus commodi vitae vel, magnam qui. Rem.</p>    
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code" style="color: #345183;"></i></span>
+                <h4>Diseño de Sitos Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>PAGINAS WEB</li>
+                    <li>GRAPHIC</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas in ut odio quaerat libero totam 
+                    eum quam, pariatur modi nulla repellendus quis inventore accusamus commodi vitae vel, magnam qui. Rem.</p>    
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code" style="color: #345183;"></i></span>
+                <h4>Diseño de Sitos Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>PAGINAS WEB</li>
+                    <li>GRAPHIC</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas in ut odio quaerat libero totam 
+                    eum quam, pariatur modi nulla repellendus quis inventore accusamus commodi vitae vel, magnam qui. Rem.</p>    
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION HABILIDADES-->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Html & CSS</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra"> 
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Javascript</p>
+                <span class="porcentaje">70%</span>
+            </div>
+            
+            <div class="barra"> 
+                <div id="js" class="barra-progreso2"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>BASE DE DATOS</p>
+                <span class="porcentaje">65%</span>
+            </div>
+            <div class="barra"> 
+                 <div id="bd" class="barra-progreso3"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>PHP</p>
+                <span class="porcentaje">65%</span>
+            </div>
+            <div class="barra"> 
+                <div id="php" class="barra-progreso4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--SECCION PORTAFOLIO-->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div> 
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div> 
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div> 
+            </div>
+        </div>
+            
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div> 
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div> 
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div> 
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div> 
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div> 
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.png" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div> 
+            </div>
+        </div>
+
+       
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje.." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                
+            </form>
+        </div>
+    </section>
+
+    <!--SECCION FOOTER-->
+    <footer>
+        <p>Todos los derechos resevardor - 2023</p>
+        <div class="redes">
+            <a href="https://www.facebook.com/jeampier.bustamante.90" target="_blank"> <i class="fa-brands fa-facebook" style="color: #345183;"></i></a>
+            <a href="https://www.linkedin.com/in/cristian-bustamante-0b5166266/" target="_blank"> <i class="fa-brands fa-linkedin" style="color: #345183;"></i></a>
+            <a href="https://www.instagram.com/cristian_bustamante3/" target="_blank"> <i class="fa-brands fa-instagram" style="color: #345183;"></i> </a>
+            <a href="https://github.com/Tryhard-cm20" target="_blank"> <i class="fa-brands fa-github"  style="color: #345183;"></i></a>         
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+
+</html>
